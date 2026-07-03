@@ -4,6 +4,6 @@ JEngine is a game engine I made in less than 10 hours. It supports .wav sound, .
 
 ## Technical Documentation
 
-* [Engine guide] (docs/enginetutorial.md)
-* [JCode documentation] (docs/documentation.md)
-* [Compilation guide] (docs/how2compile.md)
+* [Engine guide](docs/enginetutorial.md)
+* [JCode documentation](docs/documentation.md)
+* [Compilation guide](docs/how2compile.md)
