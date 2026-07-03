@@ -1,6 +1,7 @@
 # JEngine
 
 JEngine is a game engine I made in less than 10 hours. It supports .wav sound, .obj 3d models and scripts in a programming language I made in 15 minutes called **JCode**. The whole engine runs purely on **Python**.
+If you want to use it, go ahead and download that `JENGINE`folder.
 
 ## Technical Documentation
 
