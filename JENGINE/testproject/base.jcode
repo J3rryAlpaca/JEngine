@@ -1,0 +1,23 @@
+movetype wasd
+setplayerpos x 0
+setplayerpos y 0
+cammode 3
+bgmloop alexguz-funk-amp-breakbeat-541097.wav
+runscript instruction.jcode
+
+// 1. FIRST, allocate the objects in engine memory
+assignobj box cube.obj
+assignobj button button.obj
+
+// 2. SECOND, change their coordinates away from (0,0)
+setobjpos box x 5
+setobjpos box y 5
+setobjpos button x 5
+setobjpos button y 0
+
+objpushable box 1
+objpushable button 0
+
+// 3. FINALLY, wait for them to collide
+waituntiltouch box button
+displaytext "You win!"
